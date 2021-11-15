@@ -1,25 +1,21 @@
-package com.unitTestExample.calculator;
+package com.github.stokito.unitTestExample.calculator;
 
 public class Calculator {
 
 	public int sum(int a, int b) {
-             int result = a+b;
-		return result;
+		return a + b;
 	}
 
 	public int minus(int a, int b) {
-              int result = a+b; // ERROR HERE !
-		return result;  // ERROR!!!
+		return a + b;  // ERROR!!!
 	}
 
 	public int divide(int a, int b) {
-              int result = a / b;
-		return result;
+		return a / b;
 	}
 
 	public int multiply(int a, int b) {
-           int result = a * b;
-		return result;
+		return a * b;
 	}
 
 }
